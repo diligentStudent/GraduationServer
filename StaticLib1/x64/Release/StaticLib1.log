@@ -1,0 +1,33 @@
+﻿  stdafx.cpp
+  ADODatabase.cpp
+  Clock.cpp
+  Config.cpp
+  ContentsProcess.cpp
+  DBManager.cpp
+  IOCPServer.cpp
+  IOCPSession.cpp
+c:\users\1\desktop\consoleapplication2\staticlib1\iocpsession.cpp(241): warning C4267: '+=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\staticlib1\iocpsession.cpp(281): warning C4267: '-=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Lock.cpp
+  Logger.cpp
+  PacketAnalyzer.cpp
+  Query.cpp
+  QueryRecord.cpp
+  QueryStatement.cpp
+  Server.cpp
+  Session.cpp
+  SessionManager.cpp
+  Shutdown.cpp
+  Stream.cpp
+  Task.cpp
+  Terminal.cpp
+  컴파일하고 있습니다...
+  TerminalManager.cpp
+  TerminalSession.cpp
+  Thread.cpp
+  WinSocket.cpp
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  StaticLib1.vcxproj -> C:\Users\1\Desktop\ConsoleApplication2\x64\Release\StaticLib1.lib
