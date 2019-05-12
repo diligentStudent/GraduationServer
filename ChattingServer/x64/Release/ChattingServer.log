@@ -1,0 +1,27 @@
+﻿  pch.cpp
+  ChattingProcess.cpp
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(168): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(176): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(176): warning C4244: '인수': 'UInt64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(178): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(179): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(182): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(184): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(204): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(215): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(216): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(221): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(227): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(234): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(235): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(248): warning C4244: '인수': 'UInt64'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\1\desktop\consoleapplication2\chattingserver\chattingprocess.cpp(248): warning C4244: '인수': 'UInt64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ChattingServer.cpp
+  ChattingServerClass.cpp
+  LobbyValue.cpp
+  코드를 생성하고 있습니다.
+  43 of 3483 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    5 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  ChattingServer.vcxproj -> C:\Users\1\Desktop\ConsoleApplication2\x64\Release\ChattingServer.exe

@@ -1,0 +1,513 @@
+D2019-04-30T15:41:19.939	System:0x35F4	* create thread : id[0x3868] name[Task], pool size[1]
+D2019-04-30T15:41:19.943	System:0x35F4	* create thread : id[0x554C] name[Task], pool size[2]
+D2019-04-30T15:41:19.945	System:0x35F4	* create thread : id[0x519C] name[Task], pool size[3]
+D2019-04-30T15:41:19.948	System:0x35F4	* create thread : id[0x57C4] name[Task], pool size[4]
+D2019-04-30T15:41:19.952	System:0x35F4	* create thread : id[0x6858] name[Task], pool size[5]
+D2019-04-30T15:41:19.956	System:0x35F4	* task thread, [5] maked
+D2019-04-30T15:41:19.958	System:0x35F4	### Singleton set ###
+D2019-04-30T15:41:19.960	System:0x35F4	* create thread : id[0x6E20] name[Server], pool size[6]
+D2019-04-30T15:41:19.961	Server:0x6E20	* create thread : id[0x3D2C] name[ContentsProcess], pool size[7]
+D2019-04-30T15:41:19.968	Server:0x6E20	* create thread : id[0x82E0] name[ContentsProcess], pool size[8]
+D2019-04-30T15:41:19.972	Server:0x6E20	* create thread : id[0x77C8] name[ContentsProcess], pool size[9]
+D2019-04-30T15:41:19.975	Server:0x6E20	* create thread : id[0x7F08] name[ContentsProcess], pool size[10]
+D2019-04-30T15:41:19.979	Server:0x6E20	* create thread : id[0x7B5C] name[ContentsProcess], pool size[11]
+D2019-04-30T15:41:19.982	Server:0x6E20	# Initialze network base
+D2019-04-30T15:41:19.985	Server:0x6E20	* create thread : id[0x1E4C] name[Terminal], pool size[12]
+D2019-04-30T15:41:19.989	Server:0x6E20	* create thread : id[0x16AC] name[Terminal], pool size[13]
+D2019-04-30T15:41:19.992	Server:0x6E20	* create thread : id[0x2264] name[Terminal], pool size[14]
+D2019-04-30T15:41:19.994	Server:0x6E20	### Terminal set ###
+D2019-04-30T15:41:19.996	Server:0x6E20	* IO worker thread count : 5
+D2019-04-30T15:41:19.999	Server:0x6E20	### Chatting Server start!!! ###
+D2019-04-30T15:41:19.001	Server:0x6E20	@ not exist database setting
+D2019-04-30T15:41:19.003	Server:0x6E20	* server listen socket created, ip: 127.0.0.1, port: 9200
+D2019-04-30T15:41:19.006	Server:0x6E20	* create thread : id[0x515C] name[IOCPServer], pool size[15]
+D2019-04-30T15:41:19.009	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:19.009	Server:0x6E20	* create thread : id[0x72FC] name[IOCPServer], pool size[16]
+D2019-04-30T15:41:19.013	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:19.013	Server:0x6E20	* create thread : id[0x4B50] name[IOCPServer], pool size[17]
+D2019-04-30T15:41:19.020	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:19.020	Server:0x6E20	* create thread : id[0x6C30] name[IOCPServer], pool size[18]
+D2019-04-30T15:41:19.027	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:19.027	Server:0x6E20	* create thread : id[0x2AC0] name[IOCPServer], pool size[19]
+D2019-04-30T15:41:19.035	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:19.035	Server:0x6E20	* create thread : id[0x4628] name[IOCPServer], pool size[20]
+D2019-04-30T15:41:19.173	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:19.178	IOCPServer:0x4628	130
+D2019-04-30T15:41:19.181	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:19.185	ContentsProcess:0x77C8	*** [130] packet run ***
+D2019-04-30T15:41:19.185	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:19.188	ContentsProcess:0x77C8	* [127.0.0.1] Terminal accepted.
+D2019-04-30T15:41:19.236	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:19.240	IOCPServer:0x4628	130
+D2019-04-30T15:41:19.242	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:19.244	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:19.245	ContentsProcess:0x82E0	*** [130] packet run ***
+D2019-04-30T15:41:19.251	ContentsProcess:0x82E0	* [127.0.0.1] Terminal accepted.
+D2019-04-30T15:41:19.486	Terminal:0x1E4C	* [LoginServer]terminal connect [127.0.0.1]:[9000] ready
+D2019-04-30T15:41:19.492	Terminal:0x2264	* [InGameServer]terminal connect [127.0.0.1]:[9300] ready
+D2019-04-30T15:41:20.873	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:20.876	IOCPServer:0x4628	130
+D2019-04-30T15:41:20.880	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:20.883	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:20.884	ContentsProcess:0x7F08	*** [130] packet run ***
+D2019-04-30T15:41:20.893	ContentsProcess:0x7F08	* [127.0.0.1] Terminal accepted.
+D2019-04-30T15:41:20.990	Terminal:0x16AC	* [DBAgent]terminal connect [127.0.0.1]:[9100] ready
+D2019-04-30T15:41:21.580	Task:0x3868	### cpu usage : 0.00%, memory usage : 11321344Byte
+D2019-04-30T15:41:23.580	Task:0x3868	### cpu usage : 0.00%, memory usage : 11358208Byte
+D2019-04-30T15:41:25.581	Task:0x3868	### cpu usage : 0.00%, memory usage : 11358208Byte
+D2019-04-30T15:41:27.581	Task:0x3868	### cpu usage : 0.00%, memory usage : 11358208Byte
+D2019-04-30T15:41:29.581	Task:0x3868	### cpu usage : 0.00%, memory usage : 11358208Byte
+D2019-04-30T15:41:31.581	Task:0x3868	### cpu usage : 0.00%, memory usage : 11358208Byte
+D2019-04-30T15:41:32.643	IOCPServer:0x4628	137
+D2019-04-30T15:41:32.645	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:32.647	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:32.647	ContentsProcess:0x77C8	*** [137] packet run ***
+D2019-04-30T15:41:32.670	IOCPServer:0x4628	139
+D2019-04-30T15:41:32.674	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:32.677	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:32.678	ContentsProcess:0x7F08	*** [139] packet run ***
+D2019-04-30T15:41:32.682	ContentsProcess:0x7F08	* [Cutybbyozzyack] name load from db
+D2019-04-30T15:41:32.727	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:32.731	IOCPServer:0x4628	141
+D2019-04-30T15:41:32.734	IOCPServer:0x4628	144
+D2019-04-30T15:41:32.737	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:32.739	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:32.740	ContentsProcess:0x7B5C	*** [144] packet run ***
+D2019-04-30T15:41:32.740	ContentsProcess:0x3D2C	*** [141] packet run ***
+D2019-04-30T15:41:32.744	ContentsProcess:0x7B5C	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:32.744	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:32.744	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:32.746	ContentsProcess:0x3D2C	* user [Cutybbyozzyack] created from [1]
+D2019-04-30T15:41:32.750	ContentsProcess:0x7B5C	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:32.750	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:32.750	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:33.581	Task:0x3868	### cpu usage : 0.00%, memory usage : 12472320Byte
+D2019-04-30T15:41:34.621	IOCPServer:0x4B50	137
+D2019-04-30T15:41:34.624	IOCPServer:0x4B50	no Data in main_Buffer
+D2019-04-30T15:41:34.628	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:34.629	ContentsProcess:0x3D2C	*** [137] packet run ***
+D2019-04-30T15:41:34.653	IOCPServer:0x4B50	139
+D2019-04-30T15:41:34.655	IOCPServer:0x4B50	no Data in main_Buffer
+D2019-04-30T15:41:34.658	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:34.658	ContentsProcess:0x7F08	*** [139] packet run ***
+D2019-04-30T15:41:34.663	ContentsProcess:0x7F08	* [ouosssssss] name load from db
+D2019-04-30T15:41:34.710	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:34.714	IOCPServer:0x4B50	141
+D2019-04-30T15:41:34.717	IOCPServer:0x4B50	144
+D2019-04-30T15:41:34.719	IOCPServer:0x4B50	no Data in main_Buffer
+D2019-04-30T15:41:34.722	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:34.722	ContentsProcess:0x3D2C	*** [141] packet run ***
+D2019-04-30T15:41:34.722	ContentsProcess:0x7F08	*** [144] packet run ***
+D2019-04-30T15:41:34.726	ContentsProcess:0x3D2C	* user [ouosssssss] created from [1]
+D2019-04-30T15:41:34.730	ContentsProcess:0x7F08	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:34.730	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:34.730	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:34.737	ContentsProcess:0x7F08	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:34.737	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:34.737	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:34.177	IOCPServer:0x4628	146
+D2019-04-30T15:41:34.180	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:34.182	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:34.184	ContentsProcess:0x77C8	*** [146] packet run ***
+D2019-04-30T15:41:34.188	ContentsProcess:0x77C8	[127.0.0.1] enter the room number 0.
+D2019-04-30T15:41:34.193	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:34.193	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:34.193	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:34.193	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:35.581	Task:0x3868	### cpu usage : 0.00%, memory usage : 13549568Byte
+D2019-04-30T15:41:35.727	IOCPServer:0x4628	146
+D2019-04-30T15:41:35.730	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:35.733	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:35.734	ContentsProcess:0x7F08	*** [146] packet run ***
+D2019-04-30T15:41:35.738	ContentsProcess:0x7F08	[127.0.0.1] enter the room number 0.
+D2019-04-30T15:41:35.743	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:35.743	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:35.743	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:35.743	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:35.743	ContentsProcess:0x7F08	session id : 1, oid_t : 1
+D2019-04-30T15:41:35.755	ContentsProcess:0x7F08	session id : 4, oid_t : 4
+D2019-04-30T15:41:35.755	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:35.759	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:35.759	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:35.755	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:35.759	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:35.761	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:35.774	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:35.791	IOCPServer:0x4B50	* close by client[5][127.0.0.1]
+D2019-04-30T15:41:35.795	IOCPServer:0x4B50	* detected close by client [127.0.0.1]
+D2019-04-30T15:41:35.798	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:37.581	Task:0x3868	### cpu usage : 0.05%, memory usage : 12513280Byte
+D2019-04-30T15:41:39.580	Task:0x3868	### cpu usage : 0.04%, memory usage : 12533760Byte
+D2019-04-30T15:41:40.130	IOCPServer:0x4B50	162
+D2019-04-30T15:41:40.133	IOCPServer:0x4B50	no Data in main_Buffer
+D2019-04-30T15:41:40.136	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:40.136	ContentsProcess:0x3D2C	*** [162] packet run ***
+D2019-04-30T15:41:40.159	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:40.162	IOCPServer:0x4B50	141
+D2019-04-30T15:41:40.163	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:40.166	IOCPServer:0x4B50	144
+D2019-04-30T15:41:40.169	IOCPServer:0x2AC0	141
+D2019-04-30T15:41:40.171	IOCPServer:0x4B50	no Data in main_Buffer
+D2019-04-30T15:41:40.174	IOCPServer:0x2AC0	144
+D2019-04-30T15:41:40.176	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:40.177	ContentsProcess:0x77C8	*** [141] packet run ***
+D2019-04-30T15:41:40.177	ContentsProcess:0x7F08	*** [144] packet run ***
+D2019-04-30T15:41:40.179	IOCPServer:0x2AC0	no Data in main_Buffer
+D2019-04-30T15:41:40.184	ContentsProcess:0x77C8	* user [ouosssssss] created from [1]
+D2019-04-30T15:41:40.187	ContentsProcess:0x7F08	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:40.187	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:40.187	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:40.191	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:40.192	ContentsProcess:0x7B5C	*** [141] packet run ***
+D2019-04-30T15:41:40.192	ContentsProcess:0x82E0	*** [144] packet run ***
+D2019-04-30T15:41:40.200	ContentsProcess:0x7F08	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:40.200	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:40.200	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:40.209	ContentsProcess:0x7B5C	* user [Cutybbyozzyack] created from [1]
+D2019-04-30T15:41:40.212	ContentsProcess:0x82E0	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:40.212	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:40.212	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:40.227	ContentsProcess:0x82E0	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:40.228	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:40.228	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:41.581	Task:0x3868	### cpu usage : 0.08%, memory usage : 14643200Byte
+D2019-04-30T15:41:41.209	IOCPServer:0x4628	146
+D2019-04-30T15:41:41.215	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:41.218	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:41.218	ContentsProcess:0x77C8	*** [146] packet run ***
+D2019-04-30T15:41:41.223	ContentsProcess:0x77C8	[127.0.0.1] enter the room number 1.
+D2019-04-30T15:41:41.226	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:41.226	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:41.226	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:41.226	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:42.831	IOCPServer:0x2AC0	146
+D2019-04-30T15:41:42.841	IOCPServer:0x2AC0	no Data in main_Buffer
+D2019-04-30T15:41:42.851	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:42.851	ContentsProcess:0x7B5C	*** [146] packet run ***
+D2019-04-30T15:41:42.867	ContentsProcess:0x7B5C	[127.0.0.1] enter the room number 1.
+D2019-04-30T15:41:42.872	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:42.872	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:42.872	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:42.872	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:42.872	ContentsProcess:0x7B5C	session id : 1, oid_t : 1
+D2019-04-30T15:41:42.886	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:42.886	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:42.886	ContentsProcess:0x7B5C	session id : 6, oid_t : 6
+D2019-04-30T15:41:42.894	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:42.894	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:42.894	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:42.894	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:42.908	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:42.924	IOCPServer:0x72FC	* close by client[7][127.0.0.1]
+D2019-04-30T15:41:42.928	IOCPServer:0x72FC	* detected close by client [127.0.0.1]
+D2019-04-30T15:41:42.931	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:43.580	Task:0x3868	### cpu usage : 0.10%, memory usage : 13615104Byte
+D2019-04-30T15:41:45.580	Task:0x3868	### cpu usage : 0.09%, memory usage : 13615104Byte
+D2019-04-30T15:41:47.581	Task:0x3868	### cpu usage : 0.08%, memory usage : 13615104Byte
+D2019-04-30T15:41:48.093	IOCPServer:0x72FC	162
+D2019-04-30T15:41:48.095	IOCPServer:0x72FC	no Data in main_Buffer
+D2019-04-30T15:41:48.098	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:48.099	ContentsProcess:0x7B5C	*** [162] packet run ***
+D2019-04-30T15:41:48.130	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:48.141	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:48.141	IOCPServer:0x72FC	141
+D2019-04-30T15:41:48.146	IOCPServer:0x2AC0	141
+D2019-04-30T15:41:48.149	IOCPServer:0x72FC	144
+D2019-04-30T15:41:48.151	IOCPServer:0x2AC0	144
+D2019-04-30T15:41:48.153	IOCPServer:0x72FC	no Data in main_Buffer
+D2019-04-30T15:41:48.155	IOCPServer:0x2AC0	no Data in main_Buffer
+D2019-04-30T15:41:48.158	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:48.158	ContentsProcess:0x77C8	*** [141] packet run ***
+D2019-04-30T15:41:48.158	ContentsProcess:0x7B5C	*** [144] packet run ***
+D2019-04-30T15:41:48.161	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:48.169	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:48.169	ContentsProcess:0x7B5C	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:48.169	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:48.162	ContentsProcess:0x82E0	*** [144] packet run ***
+D2019-04-30T15:41:48.166	ContentsProcess:0x77C8	* user [ouosssssss] created from [1]
+D2019-04-30T15:41:48.161	ContentsProcess:0x3D2C	*** [141] packet run ***
+D2019-04-30T15:41:48.178	ContentsProcess:0x7B5C	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:48.178	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:48.178	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:48.183	ContentsProcess:0x82E0	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:48.183	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:48.183	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:48.189	ContentsProcess:0x3D2C	* user [Cutybbyozzyack] created from [1]
+D2019-04-30T15:41:48.205	ContentsProcess:0x82E0	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:48.205	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:48.205	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:49.581	Task:0x3868	### cpu usage : 0.09%, memory usage : 15720448Byte
+D2019-04-30T15:41:49.975	IOCPServer:0x2AC0	146
+D2019-04-30T15:41:49.983	IOCPServer:0x2AC0	no Data in main_Buffer
+D2019-04-30T15:41:49.986	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:49.987	ContentsProcess:0x3D2C	*** [146] packet run ***
+D2019-04-30T15:41:49.992	ContentsProcess:0x3D2C	[127.0.0.1] enter the room number 0.
+D2019-04-30T15:41:49.995	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:49.995	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:49.995	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:49.995	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:50.783	IOCPServer:0x72FC	146
+D2019-04-30T15:41:50.799	IOCPServer:0x72FC	no Data in main_Buffer
+D2019-04-30T15:41:50.809	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:50.809	ContentsProcess:0x77C8	*** [146] packet run ***
+D2019-04-30T15:41:50.821	ContentsProcess:0x77C8	[127.0.0.1] enter the room number 0.
+D2019-04-30T15:41:50.828	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:50.828	ContentsProcess:0x77C8	session id : 1, oid_t : 1
+D2019-04-30T15:41:50.828	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:50.828	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:50.828	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:50.834	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:50.834	ContentsProcess:0x77C8	session id : 9, oid_t : 9
+D2019-04-30T15:41:50.834	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:50.848	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:50.848	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:50.848	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:50.848	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:50.857	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:50.874	IOCPServer:0x72FC	* close by client[8][127.0.0.1]
+D2019-04-30T15:41:50.877	IOCPServer:0x72FC	* detected close by client [127.0.0.1]
+D2019-04-30T15:41:50.881	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:51.581	Task:0x3868	### cpu usage : 0.14%, memory usage : 14622720Byte
+D2019-04-30T15:41:53.580	Task:0x3868	### cpu usage : 0.13%, memory usage : 14622720Byte
+D2019-04-30T15:41:55.580	Task:0x3868	### cpu usage : 0.13%, memory usage : 14622720Byte
+D2019-04-30T15:41:56.170	IOCPServer:0x72FC	162
+D2019-04-30T15:41:56.173	IOCPServer:0x72FC	no Data in main_Buffer
+D2019-04-30T15:41:56.178	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:56.178	ContentsProcess:0x7F08	*** [162] packet run ***
+D2019-04-30T15:41:56.192	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:56.196	IOCPServer:0x72FC	141
+D2019-04-30T15:41:56.196	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:56.200	IOCPServer:0x72FC	144
+D2019-04-30T15:41:56.203	IOCPServer:0x4628	141
+D2019-04-30T15:41:56.205	IOCPServer:0x72FC	no Data in main_Buffer
+D2019-04-30T15:41:56.208	IOCPServer:0x4628	144
+D2019-04-30T15:41:56.210	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:56.211	ContentsProcess:0x7F08	*** [141] packet run ***
+D2019-04-30T15:41:56.211	ContentsProcess:0x7B5C	*** [144] packet run ***
+D2019-04-30T15:41:56.212	IOCPServer:0x4628	no Data in main_Buffer
+D2019-04-30T15:41:56.217	ContentsProcess:0x7F08	* user [ouosssssss] created from [1]
+D2019-04-30T15:41:56.220	ContentsProcess:0x7B5C	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:56.220	IOCPServer:0x72FC	Recving
+D2019-04-30T15:41:56.220	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:56.223	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:56.223	ContentsProcess:0x3D2C	*** [141] packet run ***
+D2019-04-30T15:41:56.224	ContentsProcess:0x77C8	*** [144] packet run ***
+D2019-04-30T15:41:56.230	ContentsProcess:0x7B5C	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:56.230	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:56.230	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:56.238	ContentsProcess:0x3D2C	* user [Cutybbyozzyack] created from [1]
+D2019-04-30T15:41:56.241	ContentsProcess:0x77C8	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:56.241	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:56.241	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:56.255	ContentsProcess:0x77C8	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:41:56.255	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:56.255	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:57.581	Task:0x3868	### cpu usage : 0.13%, memory usage : 16719872Byte
+D2019-04-30T15:41:57.292	IOCPServer:0x2AC0	146
+D2019-04-30T15:41:57.301	IOCPServer:0x2AC0	no Data in main_Buffer
+D2019-04-30T15:41:57.311	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:57.312	ContentsProcess:0x82E0	*** [146] packet run ***
+D2019-04-30T15:41:57.319	ContentsProcess:0x82E0	[127.0.0.1] enter the room number 1.
+D2019-04-30T15:41:57.322	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:57.322	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:57.322	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:57.322	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:58.047	IOCPServer:0x6C30	146
+D2019-04-30T15:41:58.050	IOCPServer:0x6C30	no Data in main_Buffer
+D2019-04-30T15:41:58.054	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:58.054	ContentsProcess:0x3D2C	*** [146] packet run ***
+D2019-04-30T15:41:58.059	ContentsProcess:0x3D2C	[127.0.0.1] enter the room number 1.
+D2019-04-30T15:41:58.062	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:58.062	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:58.062	ContentsProcess:0x3D2C	session id : 1, oid_t : 1
+D2019-04-30T15:41:58.062	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:58.062	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:58.069	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:58.069	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:58.069	ContentsProcess:0x3D2C	session id : 10, oid_t : 10
+D2019-04-30T15:41:58.082	IOCPServer:0x6C30	Recving
+D2019-04-30T15:41:58.082	IOCPServer:0x4628	Recving
+D2019-04-30T15:41:58.082	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:58.082	IOCPServer:0x4B50	Recving
+D2019-04-30T15:41:58.090	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:58.107	IOCPServer:0x2AC0	* close by client[11][127.0.0.1]
+D2019-04-30T15:41:58.110	IOCPServer:0x2AC0	* detected close by client [127.0.0.1]
+D2019-04-30T15:41:58.114	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:41:59.581	Task:0x3868	### cpu usage : 0.14%, memory usage : 15679488Byte
+D2019-04-30T15:42:01.581	Task:0x3868	### cpu usage : 0.13%, memory usage : 15679488Byte
+D2019-04-30T15:42:03.581	Task:0x3868	### cpu usage : 0.13%, memory usage : 15679488Byte
+D2019-04-30T15:42:03.408	IOCPServer:0x2AC0	162
+D2019-04-30T15:42:03.410	IOCPServer:0x2AC0	no Data in main_Buffer
+D2019-04-30T15:42:03.413	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:03.414	ContentsProcess:0x7F08	*** [162] packet run ***
+D2019-04-30T15:42:03.447	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:42:03.454	IOCPServer:0x2AC0	141
+D2019-04-30T15:42:03.455	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:42:03.460	IOCPServer:0x2AC0	144
+D2019-04-30T15:42:03.463	IOCPServer:0x4B50	141
+D2019-04-30T15:42:03.466	IOCPServer:0x2AC0	no Data in main_Buffer
+D2019-04-30T15:42:03.467	IOCPServer:0x4B50	144
+D2019-04-30T15:42:03.469	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:03.469	ContentsProcess:0x77C8	*** [141] packet run ***
+D2019-04-30T15:42:03.469	ContentsProcess:0x3D2C	*** [144] packet run ***
+D2019-04-30T15:42:03.471	IOCPServer:0x4B50	no Data in main_Buffer
+D2019-04-30T15:42:03.476	ContentsProcess:0x77C8	* user [ouosssssss] created from [1]
+D2019-04-30T15:42:03.479	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:03.479	ContentsProcess:0x3D2C	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:03.479	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:03.493	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:03.493	ContentsProcess:0x3D2C	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:03.482	ContentsProcess:0x7F08	*** [144] packet run ***
+D2019-04-30T15:42:03.493	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:03.482	ContentsProcess:0x82E0	*** [141] packet run ***
+D2019-04-30T15:42:03.481	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:03.505	ContentsProcess:0x7F08	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:03.505	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:03.505	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:03.511	ContentsProcess:0x82E0	* user [Cutybbyozzyack] created from [1]
+D2019-04-30T15:42:03.519	ContentsProcess:0x7F08	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:03.519	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:03.519	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:04.276	IOCPServer:0x2AC0	146
+D2019-04-30T15:42:04.285	IOCPServer:0x2AC0	no Data in main_Buffer
+D2019-04-30T15:42:04.291	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:04.291	ContentsProcess:0x7F08	*** [146] packet run ***
+D2019-04-30T15:42:04.296	ContentsProcess:0x7F08	[127.0.0.1] enter the room number 0.
+D2019-04-30T15:42:04.298	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:04.298	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:04.298	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:04.298	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:05.580	Task:0x3868	### cpu usage : 0.14%, memory usage : 17776640Byte
+D2019-04-30T15:42:05.813	IOCPServer:0x6C30	146
+D2019-04-30T15:42:05.823	IOCPServer:0x6C30	no Data in main_Buffer
+D2019-04-30T15:42:05.833	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:05.834	ContentsProcess:0x77C8	*** [146] packet run ***
+D2019-04-30T15:42:05.839	ContentsProcess:0x77C8	[127.0.0.1] enter the room number 0.
+D2019-04-30T15:42:05.843	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:05.843	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:05.843	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:05.843	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:05.843	ContentsProcess:0x77C8	session id : 1, oid_t : 1
+D2019-04-30T15:42:05.854	ContentsProcess:0x77C8	session id : 13, oid_t : 13
+D2019-04-30T15:42:05.854	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:05.854	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:05.858	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:05.858	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:05.858	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:05.860	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:05.873	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:05.891	IOCPServer:0x4B50	* close by client[12][127.0.0.1]
+D2019-04-30T15:42:05.895	IOCPServer:0x4B50	* detected close by client [127.0.0.1]
+D2019-04-30T15:42:05.899	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:07.581	Task:0x3868	### cpu usage : 0.14%, memory usage : 16728064Byte
+D2019-04-30T15:42:09.581	Task:0x3868	### cpu usage : 0.16%, memory usage : 16728064Byte
+D2019-04-30T15:42:09.316	IOCPServer:0x4B50	162
+D2019-04-30T15:42:09.318	IOCPServer:0x4B50	no Data in main_Buffer
+D2019-04-30T15:42:09.320	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:09.322	ContentsProcess:0x82E0	*** [162] packet run ***
+D2019-04-30T15:42:09.342	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:42:09.346	IOCPServer:0x4B50	141
+D2019-04-30T15:42:09.346	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:42:09.349	IOCPServer:0x4B50	144
+D2019-04-30T15:42:09.352	IOCPServer:0x72FC	141
+D2019-04-30T15:42:09.355	IOCPServer:0x4B50	no Data in main_Buffer
+D2019-04-30T15:42:09.357	IOCPServer:0x72FC	144
+D2019-04-30T15:42:09.361	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:09.362	ContentsProcess:0x7B5C	*** [141] packet run ***
+D2019-04-30T15:42:09.362	ContentsProcess:0x3D2C	*** [144] packet run ***
+D2019-04-30T15:42:09.365	IOCPServer:0x72FC	no Data in main_Buffer
+D2019-04-30T15:42:09.370	ContentsProcess:0x7B5C	* user [ouosssssss] created from [1]
+D2019-04-30T15:42:09.373	ContentsProcess:0x3D2C	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:09.373	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:09.373	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:09.376	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:09.377	ContentsProcess:0x7F08	*** [141] packet run ***
+D2019-04-30T15:42:09.377	ContentsProcess:0x77C8	*** [144] packet run ***
+D2019-04-30T15:42:09.382	ContentsProcess:0x3D2C	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:09.382	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:09.382	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:09.391	ContentsProcess:0x7F08	* user [Cutybbyozzyack] created from [1]
+D2019-04-30T15:42:09.396	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:09.396	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:09.396	ContentsProcess:0x77C8	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:09.417	ContentsProcess:0x77C8	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:09.417	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:09.417	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:10.807	IOCPServer:0x72FC	146
+D2019-04-30T15:42:10.812	IOCPServer:0x72FC	no Data in main_Buffer
+D2019-04-30T15:42:10.814	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:10.814	ContentsProcess:0x3D2C	*** [146] packet run ***
+D2019-04-30T15:42:10.820	ContentsProcess:0x3D2C	[127.0.0.1] enter the room number 0.
+D2019-04-30T15:42:10.823	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:10.823	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:10.823	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:10.823	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:10.293	IOCPServer:0x6C30	146
+D2019-04-30T15:42:10.296	IOCPServer:0x6C30	no Data in main_Buffer
+D2019-04-30T15:42:10.299	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:10.299	ContentsProcess:0x7F08	*** [146] packet run ***
+D2019-04-30T15:42:10.302	ContentsProcess:0x7F08	[127.0.0.1] enter the room number 0.
+D2019-04-30T15:42:10.305	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:10.305	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:10.305	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:10.305	ContentsProcess:0x7F08	session id : 1, oid_t : 1
+D2019-04-30T15:42:10.305	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:10.317	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:10.317	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:10.317	ContentsProcess:0x7F08	session id : 15, oid_t : 15
+D2019-04-30T15:42:10.329	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:10.329	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:10.329	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:10.329	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:10.340	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:10.358	IOCPServer:0x6C30	* close by client[14][127.0.0.1]
+D2019-04-30T15:42:10.363	IOCPServer:0x6C30	* detected close by client [127.0.0.1]
+D2019-04-30T15:42:10.366	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:11.582	Task:0x3868	### cpu usage : 0.16%, memory usage : 17780736Byte
+D2019-04-30T15:42:13.580	Task:0x3868	### cpu usage : 0.15%, memory usage : 17780736Byte
+D2019-04-30T15:42:14.855	IOCPServer:0x6C30	162
+D2019-04-30T15:42:14.858	IOCPServer:0x6C30	no Data in main_Buffer
+D2019-04-30T15:42:14.862	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:14.863	ContentsProcess:0x82E0	*** [162] packet run ***
+D2019-04-30T15:42:14.876	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:42:14.879	IOCPServer:0x6C30	141
+D2019-04-30T15:42:14.880	IOCPServer:0x515C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:42:14.884	IOCPServer:0x6C30	144
+D2019-04-30T15:42:14.888	IOCPServer:0x2AC0	141
+D2019-04-30T15:42:14.891	IOCPServer:0x6C30	no Data in main_Buffer
+D2019-04-30T15:42:14.893	IOCPServer:0x2AC0	144
+D2019-04-30T15:42:14.896	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:14.896	ContentsProcess:0x82E0	*** [141] packet run ***
+D2019-04-30T15:42:14.896	ContentsProcess:0x3D2C	*** [144] packet run ***
+D2019-04-30T15:42:14.897	IOCPServer:0x2AC0	no Data in main_Buffer
+D2019-04-30T15:42:14.901	ContentsProcess:0x82E0	* user [ouosssssss] created from [1]
+D2019-04-30T15:42:14.903	ContentsProcess:0x3D2C	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:14.903	IOCPServer:0x6C30	Recving
+D2019-04-30T15:42:14.903	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:14.906	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:14.907	ContentsProcess:0x77C8	*** [141] packet run ***
+D2019-04-30T15:42:14.908	ContentsProcess:0x7B5C	*** [144] packet run ***
+D2019-04-30T15:42:14.914	ContentsProcess:0x3D2C	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:14.914	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:14.914	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:14.924	ContentsProcess:0x77C8	* user [Cutybbyozzyack] created from [1]
+D2019-04-30T15:42:14.926	ContentsProcess:0x7B5C	Send Room memeber: [0], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:14.926	IOCPServer:0x2AC0	Recving
+D2019-04-30T15:42:14.926	IOCPServer:0x72FC	Recving
+D2019-04-30T15:42:14.940	ContentsProcess:0x7B5C	Send Room memeber: [1], member count: [0] to 127.0.0.1
+D2019-04-30T15:42:14.940	IOCPServer:0x4B50	Recving
+D2019-04-30T15:42:14.940	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:15.580	Task:0x3868	### cpu usage : 0.15%, memory usage : 19890176Byte
+D2019-04-30T15:42:15.721	IOCPServer:0x4628	* close by client[17][127.0.0.1]
+D2019-04-30T15:42:15.726	IOCPServer:0x4628	* detected close by client [127.0.0.1]
+D2019-04-30T15:42:15.732	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:15.561	IOCPServer:0x4628	* close by client[16][127.0.0.1]
+D2019-04-30T15:42:15.564	IOCPServer:0x4628	* detected close by client [127.0.0.1]
+D2019-04-30T15:42:15.569	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:16.028	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:16.028	Terminal:0x1E4C	! termnal [LoginServer] disconnected !
+D2019-04-30T15:42:16.288	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:16.288	Terminal:0x16AC	! termnal [DBAgent] disconnected !
+D2019-04-30T15:42:17.581	IOCPServer:0x4628	Recving
+D2019-04-30T15:42:17.581	Terminal:0x2264	! termnal [InGameServer] disconnected !
+D2019-04-30T15:42:17.581	Task:0x3868	### cpu usage : 0.15%, memory usage : 17793024Byte
