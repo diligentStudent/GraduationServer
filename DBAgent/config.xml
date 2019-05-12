@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<App>
+  <Name>DBAgent</Name>
+  <Server>
+    <IP>127.0.0.1</IP>
+    <Port>9100</Port>
+    <ThreadCount>2</ThreadCount>
+  </Server>
+  <Terminal>
+    <LoginServer>
+      <IP>127.0.0.1</IP>
+      <Port>9000</Port>
+    </LoginServer>
+    <ChattingServer>
+      <IP>127.0.0.1</IP>
+      <Port>9200</Port>
+    </ChattingServer>
+    <InGameServer>
+      <IP>127.0.0.1</IP>
+      <Port>9300</Port>
+    </InGameServer>
+</Terminal>
+  <Log>
+    <Path>./Log/DBAgent.log</Path>
+    <Prefix>DBAgent</Prefix>
+    <Type>WithFile</Type>
+  </Log>
+  <DataBase>
+    <ServerName>223.194.100.64</ServerName>
+    <DB>LoginGameServer</DB>
+    <Login>TempGameServer</Login>
+    <Password>123456</Password>
+    <ThreadCount>5</ThreadCount>
+  </DataBase>
+  <Contents>
+    <ThreadCount>5</ThreadCount>
+  </Contents>
+</App>

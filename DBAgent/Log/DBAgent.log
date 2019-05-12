@@ -1,0 +1,101 @@
+D2019-04-30T15:41:19.158	DBAgent:0x39C4	@ not exist task setting
+D2019-04-30T15:41:19.165	DBAgent:0x39C4	### Singleton set ###
+D2019-04-30T15:41:19.175	DBAgent:0x39C4	* connect try: LoginGameServer, TempGameServer, 123456
+D2019-04-30T15:41:19.179	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI10
+D2019-04-30T15:41:20.661	DBAgent:0x39C4	! [LoginGameServer]DB [connction] fail [공급자를 찾을 수 없습니다. 올바르게 설치되지 않았을 수 있습니다.]
+D2019-04-30T15:41:20.666	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI11
+D2019-04-30T15:41:20.716	DBAgent:0x39C4	* [LoginGameServer]DB connection success
+D2019-04-30T15:41:20.720	DBAgent:0x39C4	* database SQLNCLI11 : LoginGameServer connect
+D2019-04-30T15:41:20.722	DBAgent:0x39C4	* create thread : id[0x2068] name[ADODatabase], pool size[1]
+D2019-04-30T15:41:20.725	DBAgent:0x39C4	* connect try: LoginGameServer, TempGameServer, 123456
+D2019-04-30T15:41:20.728	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI10
+D2019-04-30T15:41:20.731	DBAgent:0x39C4	! [LoginGameServer]DB [connction] fail [공급자를 찾을 수 없습니다. 올바르게 설치되지 않았을 수 있습니다.]
+D2019-04-30T15:41:20.734	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI11
+D2019-04-30T15:41:20.745	DBAgent:0x39C4	* [LoginGameServer]DB connection success
+D2019-04-30T15:41:20.750	DBAgent:0x39C4	* database SQLNCLI11 : LoginGameServer connect
+D2019-04-30T15:41:20.752	DBAgent:0x39C4	* create thread : id[0x6B80] name[ADODatabase], pool size[2]
+D2019-04-30T15:41:20.755	DBAgent:0x39C4	* connect try: LoginGameServer, TempGameServer, 123456
+D2019-04-30T15:41:20.758	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI10
+D2019-04-30T15:41:20.760	DBAgent:0x39C4	! [LoginGameServer]DB [connction] fail [공급자를 찾을 수 없습니다. 올바르게 설치되지 않았을 수 있습니다.]
+D2019-04-30T15:41:20.763	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI11
+D2019-04-30T15:41:20.773	DBAgent:0x39C4	* [LoginGameServer]DB connection success
+D2019-04-30T15:41:20.776	DBAgent:0x39C4	* database SQLNCLI11 : LoginGameServer connect
+D2019-04-30T15:41:20.778	DBAgent:0x39C4	* create thread : id[0x79C] name[ADODatabase], pool size[3]
+D2019-04-30T15:41:20.782	DBAgent:0x39C4	* connect try: LoginGameServer, TempGameServer, 123456
+D2019-04-30T15:41:20.784	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI10
+D2019-04-30T15:41:20.787	DBAgent:0x39C4	! [LoginGameServer]DB [connction] fail [공급자를 찾을 수 없습니다. 올바르게 설치되지 않았을 수 있습니다.]
+D2019-04-30T15:41:20.791	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI11
+D2019-04-30T15:41:20.800	DBAgent:0x39C4	* [LoginGameServer]DB connection success
+D2019-04-30T15:41:20.805	DBAgent:0x39C4	* database SQLNCLI11 : LoginGameServer connect
+D2019-04-30T15:41:20.808	DBAgent:0x39C4	* create thread : id[0x437C] name[ADODatabase], pool size[4]
+D2019-04-30T15:41:20.810	DBAgent:0x39C4	* connect try: LoginGameServer, TempGameServer, 123456
+D2019-04-30T15:41:20.814	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI10
+D2019-04-30T15:41:20.816	DBAgent:0x39C4	! [LoginGameServer]DB [connction] fail [공급자를 찾을 수 없습니다. 올바르게 설치되지 않았을 수 있습니다.]
+D2019-04-30T15:41:20.819	DBAgent:0x39C4	* [LoginGameServer]DB try connection provider = SQLNCLI11
+D2019-04-30T15:41:20.829	DBAgent:0x39C4	* [LoginGameServer]DB connection success
+D2019-04-30T15:41:20.834	DBAgent:0x39C4	* database SQLNCLI11 : LoginGameServer connect
+D2019-04-30T15:41:20.837	DBAgent:0x39C4	* create thread : id[0x37F0] name[ADODatabase], pool size[5]
+D2019-04-30T15:41:20.841	DBAgent:0x39C4	* create thread : id[0x7604] name[DBAgent], pool size[6]
+D2019-04-30T15:41:20.843	DBAgent:0x7604	* create thread : id[0x14F0] name[ContentsProcess], pool size[7]
+D2019-04-30T15:41:20.849	DBAgent:0x7604	* create thread : id[0x79BC] name[ContentsProcess], pool size[8]
+D2019-04-30T15:41:20.853	DBAgent:0x7604	* create thread : id[0x64A8] name[ContentsProcess], pool size[9]
+D2019-04-30T15:41:20.857	DBAgent:0x7604	* create thread : id[0x80E0] name[ContentsProcess], pool size[10]
+D2019-04-30T15:41:20.861	DBAgent:0x7604	* create thread : id[0x2BE8] name[ContentsProcess], pool size[11]
+D2019-04-30T15:41:20.864	DBAgent:0x7604	# Initialze network base
+D2019-04-30T15:41:20.867	DBAgent:0x7604	* create thread : id[0x25B4] name[Terminal], pool size[12]
+D2019-04-30T15:41:20.867	Terminal:0x25B4	* [LoginServer]terminal connect [127.0.0.1]:[9000] ready
+D2019-04-30T15:41:20.872	DBAgent:0x7604	* create thread : id[0x106C] name[Terminal], pool size[13]
+D2019-04-30T15:41:20.872	Terminal:0x106C	* [ChattingServer]terminal connect [127.0.0.1]:[9200] ready
+D2019-04-30T15:41:20.880	DBAgent:0x7604	* create thread : id[0x5C44] name[Terminal], pool size[14]
+D2019-04-30T15:41:20.881	Terminal:0x5C44	* [InGameServer]terminal connect [127.0.0.1]:[9300] ready
+D2019-04-30T15:41:20.891	DBAgent:0x7604	### Terminal set ###
+D2019-04-30T15:41:20.902	DBAgent:0x7604	* IO worker thread count : 2
+D2019-04-30T15:41:20.905	DBAgent:0x7604	### DBAgent start!!! ###
+D2019-04-30T15:41:20.908	DBAgent:0x7604	* server listen socket created, ip: 127.0.0.1, port: 9100
+D2019-04-30T15:41:20.911	DBAgent:0x7604	* create thread : id[0x1C8] name[IOCPServer], pool size[15]
+D2019-04-30T15:41:20.916	IOCPServer:0x580	Recving
+D2019-04-30T15:41:20.916	DBAgent:0x7604	* create thread : id[0x580] name[IOCPServer], pool size[16]
+D2019-04-30T15:41:20.921	IOCPServer:0x5FB4	Recving
+D2019-04-30T15:41:20.921	DBAgent:0x7604	* create thread : id[0x5FB4] name[IOCPServer], pool size[17]
+D2019-04-30T15:41:20.991	IOCPServer:0x1C8	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:20.995	IOCPServer:0x5FB4	130
+D2019-04-30T15:41:20.997	IOCPServer:0x5FB4	no Data in main_Buffer
+D2019-04-30T15:41:20.999	IOCPServer:0x5FB4	Recving
+D2019-04-30T15:41:20.000	ContentsProcess:0x14F0	*** [130] packet run ***
+D2019-04-30T15:41:20.004	ContentsProcess:0x14F0	* [127.0.0.1] Terminal accepted.
+D2019-04-30T15:41:20.171	IOCPServer:0x1C8	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:20.178	IOCPServer:0x5FB4	130
+D2019-04-30T15:41:20.179	IOCPServer:0x5FB4	no Data in main_Buffer
+D2019-04-30T15:41:20.182	IOCPServer:0x5FB4	Recving
+D2019-04-30T15:41:20.182	ContentsProcess:0x64A8	*** [130] packet run ***
+D2019-04-30T15:41:20.186	ContentsProcess:0x64A8	* [127.0.0.1] Terminal accepted.
+D2019-04-30T15:41:20.239	IOCPServer:0x1C8	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:20.245	IOCPServer:0x5FB4	130
+D2019-04-30T15:41:20.247	IOCPServer:0x5FB4	no Data in main_Buffer
+D2019-04-30T15:41:20.250	IOCPServer:0x5FB4	Recving
+D2019-04-30T15:41:20.251	ContentsProcess:0x64A8	*** [130] packet run ***
+D2019-04-30T15:41:20.255	ContentsProcess:0x64A8	* [127.0.0.1] Terminal accepted.
+D2019-04-30T15:41:32.610	IOCPServer:0x5FB4	135
+D2019-04-30T15:41:32.612	IOCPServer:0x5FB4	no Data in main_Buffer
+D2019-04-30T15:41:32.614	IOCPServer:0x5FB4	Recving
+D2019-04-30T15:41:32.615	ContentsProcess:0x80E0	*** [135] packet run ***
+D2019-04-30T15:41:32.624	ADODatabase:0x79C	* Run query [p_AccountData_Select 'test1', '123'] result [0]
+D2019-04-30T15:41:32.651	IOCPServer:0x5FB4	138
+D2019-04-30T15:41:32.653	IOCPServer:0x5FB4	no Data in main_Buffer
+D2019-04-30T15:41:32.655	IOCPServer:0x5FB4	Recving
+D2019-04-30T15:41:32.655	ContentsProcess:0x14F0	*** [138] packet run ***
+D2019-04-30T15:41:32.664	ADODatabase:0x437C	* Run query [p_Character_Select '1'] result [0]
+D2019-04-30T15:41:32.667	ADODatabase:0x437C	id : Cutybbyozzyack
+D2019-04-30T15:41:34.592	IOCPServer:0x5FB4	135
+D2019-04-30T15:41:34.595	IOCPServer:0x5FB4	no Data in main_Buffer
+D2019-04-30T15:41:34.597	IOCPServer:0x5FB4	Recving
+D2019-04-30T15:41:34.597	ContentsProcess:0x2BE8	*** [135] packet run ***
+D2019-04-30T15:41:34.603	ADODatabase:0x6B80	* Run query [p_AccountData_Select 'test2', '234'] result [0]
+D2019-04-30T15:41:34.634	IOCPServer:0x5FB4	138
+D2019-04-30T15:41:34.637	IOCPServer:0x5FB4	no Data in main_Buffer
+D2019-04-30T15:41:34.638	IOCPServer:0x5FB4	Recving
+D2019-04-30T15:41:34.639	ContentsProcess:0x14F0	*** [138] packet run ***
+D2019-04-30T15:41:34.648	ADODatabase:0x79C	* Run query [p_Character_Select '2'] result [0]
+D2019-04-30T15:41:34.650	ADODatabase:0x79C	id : ouosssssss
+D2019-04-30T15:42:16.028	IOCPServer:0x5FB4	Recving
+D2019-04-30T15:42:16.029	Terminal:0x25B4	! termnal [LoginServer] disconnected !
