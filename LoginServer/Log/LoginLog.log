@@ -1,0 +1,128 @@
+D2019-04-30T15:41:19.187	System:0x60DC	* create thread : id[0x7BAC] name[Task], pool size[1]
+D2019-04-30T15:41:19.194	System:0x60DC	* create thread : id[0x7790] name[Task], pool size[2]
+D2019-04-30T15:41:19.197	System:0x60DC	* create thread : id[0x3F6C] name[Task], pool size[3]
+D2019-04-30T15:41:19.200	System:0x60DC	* create thread : id[0x6910] name[Task], pool size[4]
+D2019-04-30T15:41:19.203	System:0x60DC	* create thread : id[0x2DD0] name[Task], pool size[5]
+D2019-04-30T15:41:19.206	System:0x60DC	* task thread, [5] maked
+D2019-04-30T15:41:19.208	System:0x60DC	### Singleton set ###
+D2019-04-30T15:41:19.210	System:0x60DC	* create thread : id[0x42F4] name[Server], pool size[6]
+D2019-04-30T15:41:19.211	Server:0x42F4	* create thread : id[0x6818] name[ContentsProcess], pool size[7]
+D2019-04-30T15:41:19.216	Server:0x42F4	* create thread : id[0x48E0] name[ContentsProcess], pool size[8]
+D2019-04-30T15:41:19.220	Server:0x42F4	* create thread : id[0x81D4] name[ContentsProcess], pool size[9]
+D2019-04-30T15:41:19.224	Server:0x42F4	* create thread : id[0x3DFC] name[ContentsProcess], pool size[10]
+D2019-04-30T15:41:19.228	Server:0x42F4	* create thread : id[0x8348] name[ContentsProcess], pool size[11]
+D2019-04-30T15:41:19.231	Server:0x42F4	# Initialze network base
+D2019-04-30T15:41:19.234	Server:0x42F4	* create thread : id[0x4A20] name[Terminal], pool size[12]
+D2019-04-30T15:41:19.236	Terminal:0x4A20	* [ChattingServer]terminal connect [127.0.0.1]:[9200] ready
+D2019-04-30T15:41:19.238	Server:0x42F4	* create thread : id[0x58B0] name[Terminal], pool size[13]
+D2019-04-30T15:41:19.244	Server:0x42F4	* create thread : id[0x6D78] name[Terminal], pool size[14]
+D2019-04-30T15:41:19.245	Terminal:0x6D78	* [InGameServer]terminal connect [127.0.0.1]:[9300] ready
+D2019-04-30T15:41:19.248	Server:0x42F4	### Terminal set ###
+D2019-04-30T15:41:19.254	Server:0x42F4	* IO worker thread count : 5
+D2019-04-30T15:41:19.257	Server:0x42F4	### LoginServer start!!! ###
+D2019-04-30T15:41:19.259	Server:0x42F4	@ not exist database setting
+D2019-04-30T15:41:19.262	Server:0x42F4	* server listen socket created, ip: 127.0.0.1, port: 9000
+D2019-04-30T15:41:19.266	Server:0x42F4	* create thread : id[0x634C] name[IOCPServer], pool size[15]
+D2019-04-30T15:41:19.269	IOCPServer:0x28F0	Recving
+D2019-04-30T15:41:19.269	Server:0x42F4	* create thread : id[0x28F0] name[IOCPServer], pool size[16]
+D2019-04-30T15:41:19.274	IOCPServer:0x2A4	Recving
+D2019-04-30T15:41:19.274	Server:0x42F4	* create thread : id[0x2A4] name[IOCPServer], pool size[17]
+D2019-04-30T15:41:19.279	IOCPServer:0x4CF4	Recving
+D2019-04-30T15:41:19.279	Server:0x42F4	* create thread : id[0x4CF4] name[IOCPServer], pool size[18]
+D2019-04-30T15:41:19.285	IOCPServer:0x31AC	Recving
+D2019-04-30T15:41:19.285	Server:0x42F4	* create thread : id[0x31AC] name[IOCPServer], pool size[19]
+D2019-04-30T15:41:19.292	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:19.292	Server:0x42F4	* create thread : id[0xA2C] name[IOCPServer], pool size[20]
+D2019-04-30T15:41:19.487	IOCPServer:0x634C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:19.491	IOCPServer:0xA2C	130
+D2019-04-30T15:41:19.494	IOCPServer:0xA2C	no Data in main_Buffer
+D2019-04-30T15:41:19.497	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:19.497	ContentsProcess:0x81D4	*** [130] packet run ***
+D2019-04-30T15:41:19.503	ContentsProcess:0x81D4	* [127.0.0.1] Terminal accepted.
+D2019-04-30T15:41:20.668	IOCPServer:0x634C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:20.671	IOCPServer:0xA2C	130
+D2019-04-30T15:41:20.674	IOCPServer:0xA2C	no Data in main_Buffer
+D2019-04-30T15:41:20.678	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:20.679	ContentsProcess:0x81D4	*** [130] packet run ***
+D2019-04-30T15:41:20.684	ContentsProcess:0x81D4	* [127.0.0.1] Terminal accepted.
+D2019-04-30T15:41:20.868	IOCPServer:0x634C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:20.871	IOCPServer:0xA2C	130
+D2019-04-30T15:41:20.874	IOCPServer:0xA2C	no Data in main_Buffer
+D2019-04-30T15:41:20.878	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:20.880	ContentsProcess:0x48E0	*** [130] packet run ***
+D2019-04-30T15:41:20.885	ContentsProcess:0x48E0	* [127.0.0.1] Terminal accepted.
+D2019-04-30T15:41:20.238	Terminal:0x58B0	* [DBAgent]terminal connect [127.0.0.1]:[9100] ready
+D2019-04-30T15:41:21.580	Task:0x7BAC	### cpu usage : 0.00%, memory usage : 11190272Byte
+D2019-04-30T15:41:23.580	Task:0x7BAC	### cpu usage : 0.00%, memory usage : 11223040Byte
+D2019-04-30T15:41:25.581	Task:0x7BAC	### cpu usage : 0.00%, memory usage : 11223040Byte
+D2019-04-30T15:41:25.255	IOCPServer:0x634C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:27.581	Task:0x7BAC	### cpu usage : 0.00%, memory usage : 12271616Byte
+D2019-04-30T15:41:29.581	Task:0x7BAC	### cpu usage : 0.00%, memory usage : 12271616Byte
+D2019-04-30T15:41:29.683	IOCPServer:0x634C	* client accecpt from [127.0.0.1]
+D2019-04-30T15:41:31.581	Task:0x7BAC	### cpu usage : 0.00%, memory usage : 13320192Byte
+D2019-04-30T15:41:32.598	IOCPServer:0xA2C	132
+D2019-04-30T15:41:32.602	IOCPServer:0xA2C	no Data in main_Buffer
+D2019-04-30T15:41:32.604	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:32.605	ContentsProcess:0x48E0	*** [132] packet run ***
+D2019-04-30T15:41:32.628	IOCPServer:0xA2C	136
+D2019-04-30T15:41:32.630	IOCPServer:0xA2C	no Data in main_Buffer
+D2019-04-30T15:41:32.632	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:32.633	ContentsProcess:0x3DFC	*** [136] packet run ***
+D2019-04-30T15:41:32.637	ContentsProcess:0x3DFC	* id/ pw result = 1
+D2019-04-30T15:41:32.640	ContentsProcess:0x3DFC	session id : 4, oid_t : 4
+D2019-04-30T15:41:32.685	IOCPServer:0xA2C	140
+D2019-04-30T15:41:32.686	IOCPServer:0xA2C	no Data in main_Buffer
+D2019-04-30T15:41:32.688	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:32.688	ContentsProcess:0x3DFC	*** [140] packet run ***
+D2019-04-30T15:41:32.694	ContentsProcess:0x3DFC	session id : 4, oid_t : 4
+D2019-04-30T15:41:32.696	ContentsProcess:0x3DFC	보낸다 Success패킷 
+D2019-04-30T15:41:32.698	ContentsProcess:0x3DFC	* loaded [Cutybbyozzyack] user name, from [127.0.0.1]
+D2019-04-30T15:41:32.701	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:32.701	IOCPServer:0x31AC	Recving
+D2019-04-30T15:41:32.726	IOCPServer:0x31AC	* close by client[4][127.0.0.1]
+D2019-04-30T15:41:32.730	IOCPServer:0x31AC	* detected close by client [127.0.0.1]
+D2019-04-30T15:41:32.734	IOCPServer:0x31AC	Recving
+D2019-04-30T15:41:33.581	Task:0x7BAC	### cpu usage : 0.02%, memory usage : 12328960Byte
+D2019-04-30T15:41:34.581	IOCPServer:0x31AC	132
+D2019-04-30T15:41:34.584	IOCPServer:0x31AC	no Data in main_Buffer
+D2019-04-30T15:41:34.586	IOCPServer:0x31AC	Recving
+D2019-04-30T15:41:34.586	ContentsProcess:0x3DFC	*** [132] packet run ***
+D2019-04-30T15:41:34.608	IOCPServer:0x31AC	136
+D2019-04-30T15:41:34.610	IOCPServer:0x31AC	no Data in main_Buffer
+D2019-04-30T15:41:34.612	IOCPServer:0x31AC	Recving
+D2019-04-30T15:41:34.613	ContentsProcess:0x3DFC	*** [136] packet run ***
+D2019-04-30T15:41:34.616	ContentsProcess:0x3DFC	* id/ pw result = 1
+D2019-04-30T15:41:34.618	ContentsProcess:0x3DFC	session id : 5, oid_t : 5
+D2019-04-30T15:41:34.666	IOCPServer:0x31AC	140
+D2019-04-30T15:41:34.668	IOCPServer:0x31AC	no Data in main_Buffer
+D2019-04-30T15:41:34.670	IOCPServer:0x31AC	Recving
+D2019-04-30T15:41:34.670	ContentsProcess:0x8348	*** [140] packet run ***
+D2019-04-30T15:41:34.674	ContentsProcess:0x8348	session id : 5, oid_t : 5
+D2019-04-30T15:41:34.677	ContentsProcess:0x8348	보낸다 Success패킷 
+D2019-04-30T15:41:34.679	ContentsProcess:0x8348	* loaded [ouosssssss] user name, from [127.0.0.1]
+D2019-04-30T15:41:34.682	IOCPServer:0x31AC	Recving
+D2019-04-30T15:41:34.682	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:34.709	IOCPServer:0xA2C	* close by client[5][127.0.0.1]
+D2019-04-30T15:41:34.713	IOCPServer:0xA2C	* detected close by client [127.0.0.1]
+D2019-04-30T15:41:34.717	IOCPServer:0xA2C	Recving
+D2019-04-30T15:41:35.581	Task:0x7BAC	### cpu usage : 0.04%, memory usage : 11321344Byte
+D2019-04-30T15:41:37.580	Task:0x7BAC	### cpu usage : 0.04%, memory usage : 11321344Byte
+D2019-04-30T15:41:39.580	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11321344Byte
+D2019-04-30T15:41:41.581	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11321344Byte
+D2019-04-30T15:41:43.581	Task:0x7BAC	### cpu usage : 0.04%, memory usage : 11321344Byte
+D2019-04-30T15:41:45.580	Task:0x7BAC	### cpu usage : 0.04%, memory usage : 11321344Byte
+D2019-04-30T15:41:47.581	Task:0x7BAC	### cpu usage : 0.04%, memory usage : 11321344Byte
+D2019-04-30T15:41:49.580	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11321344Byte
+D2019-04-30T15:41:51.581	Task:0x7BAC	### cpu usage : 0.04%, memory usage : 11292672Byte
+D2019-04-30T15:41:53.580	Task:0x7BAC	### cpu usage : 0.04%, memory usage : 11292672Byte
+D2019-04-30T15:41:55.580	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11292672Byte
+D2019-04-30T15:41:57.581	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11292672Byte
+D2019-04-30T15:41:59.581	Task:0x7BAC	### cpu usage : 0.04%, memory usage : 11292672Byte
+D2019-04-30T15:42:01.581	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11292672Byte
+D2019-04-30T15:42:03.581	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11292672Byte
+D2019-04-30T15:42:05.581	Task:0x7BAC	### cpu usage : 0.04%, memory usage : 11292672Byte
+D2019-04-30T15:42:07.580	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11292672Byte
+D2019-04-30T15:42:09.581	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11292672Byte
+D2019-04-30T15:42:11.581	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11292672Byte
+D2019-04-30T15:42:13.580	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11296768Byte
+D2019-04-30T15:42:15.580	Task:0x7BAC	### cpu usage : 0.03%, memory usage : 11296768Byte
